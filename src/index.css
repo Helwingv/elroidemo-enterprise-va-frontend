@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Main Headlines */
+  h1 {
+    @apply font-heading text-h1-headline;
+  }
+
+  /* Subheadlines */
+  h2 {
+    @apply font-heading text-h2-headline;
+  }
+
+  h3 {
+    @apply font-heading text-h3-headline;
+  }
+
+  h4 {
+    @apply font-content text-h4-body;
+  }
+
+  h5 {
+    @apply font-content text-h5-body;
+  }
+
+  body {
+    @apply font-content;
+  }
+}
+
+@layer components {
+  .h1-subhead {
+    @apply font-heading text-h1-subhead;
+  }
+
+  .h2-subhead {
+    @apply font-heading text-h2-subhead;
+  }
+
+  .h3-body {
+    @apply font-content text-h3-body;
+  }
+}
